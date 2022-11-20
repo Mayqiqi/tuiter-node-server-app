@@ -1,0 +1,5 @@
+export default [
+    {profile: '../images/elonmusk.png', userName: 'Elon Musk', handle: '@elonmusk', time: '23h', title: 'Amazing show about @Inspiration4x mission!', image: '../images/inspiration.png', topic: 'ountdown: Inspiration4 Mission to Space | Netflix Official Site', text: 'From training to launch to landing, this all-access docuseries rides along with the Inspration4 crew on the first all-civillian orbital space...', link: '<i class="fa fa-link"></i><a href="netflix.com" class="wd-text-bottom" >netflix.com</a>', message:'4.2k',  forward:'3.5k', love:'37.5k'},
+    {profile: '../images/newyorkpost.png', userName: 'New York Post', handle:'@nypost', time: '23h', title: "Grimes seen reading Karl Marx following split with world's richest man Elon Musk", image: '../images/reading.png', topic: '', text: '', link: '#', message:'965',  forward:'2.4k', love:'4k'},
+
+];

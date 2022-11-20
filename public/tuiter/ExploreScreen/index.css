@@ -1,0 +1,438 @@
+#search-input-icon{
+  color:white;
+}
+
+#search-input::placeholder {
+  padding-left: 40px;
+}
+
+.wd-bg-color-black{
+  background-color: black;
+}
+
+.wd-bg-padding{
+  margin-left: 16px;
+}
+
+.wd-bg-border{
+  border-style: solid;
+  border-color: rgb(47, 51, 54);
+  border-width: 1px;
+}
+
+.wd-search-color{
+  background-color: white;
+}
+
+.wd-search-color-darkgrey{
+  background-color: darkgray;
+}
+
+.wd-font-color-lightgrey{
+  color: rgb(211, 211, 211);
+}
+
+.wd-font-color-white{
+  color: white;
+}
+
+.wd-font-color-blue{
+  color: rgb(29,161,242);
+}
+
+
+.wd-search-input{
+  width:90%;
+  height:35px;
+  background-color: rgb(31,31,31);
+}
+
+.wd-rounded-corners-all-around {
+  border-radius: 50px;
+  border-width:1px;
+}
+
+.wd-fg-white-border{
+  color: white;
+  font-weight: bolder;
+}
+
+.wd-padding-top{
+  padding-top: 10px;
+}
+
+.wd-float-left{
+  float: left;
+  width: 80%;
+}
+
+.wd-float-right-image{
+  float: right;
+  height: 75px;
+  width: 70px;
+  border-radius: 20px;
+
+}
+
+.wd-right-float-left{
+  float: left;
+  padding-top: 5px;
+}
+
+.wd-right-logo{
+  height: 40px;
+  width: 40px;
+  border-radius: 80px;
+}
+
+
+.wd-right-button{
+  width: 60px;
+}
+
+.wd-right-float-right{
+  float: right;
+  padding-top: 10px;
+}
+
+.wd-right-title{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.wd-right-author{
+  font-size: 12px;
+}
+
+.wd-float-done{
+  clear: both;
+}
+
+.wd-font-size{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.wd-margin-top{
+  margin-top: 10px;
+}
+
+.wd-button-tweet{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-style: none;
+  font-size: 13px;
+  height: 30px;
+  -webkit-border-radius:20px;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+}
+
+.wd-button-tweet-left{
+  background-color: #0d6efd;
+  color: white;
+  font-weight: bold;
+  border-style: none;
+  font-size: 13px;
+  height: 30px;
+  -webkit-border-radius:20px;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+}
+
+
+.wd-cog{
+  position: relative;
+  top: 5px;
+  left: 12px;
+  color:white;
+}
+
+.wd-image-text{
+  position: relative;
+}
+
+.wd-content-img{
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
+.wd-content-text-xxl{
+  position: absolute;
+  top: 450px;
+  left:10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.wd-content-text-xl {
+  position: absolute;
+  top: 385px;
+  left:10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.wd-content-text{
+  clear: both;
+}
+
+.wd-content-text-lg {
+  position: absolute;
+  top: 315px;
+  left:10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.wd-content-text-md {
+  position: absolute;
+  top: 342px;
+  left:10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.wd-content-text-sm {
+  position: absolute;
+  top: 245px;
+  left:10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.wd-content-text-xs {
+  position: absolute;
+  top: 255px;
+  left:10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.position-relative{
+  position: relative;
+}
+
+
+
+.wd-grid {
+  clear: both;
+}
+
+.wd-grid-heading-bar{
+  clear: both;
+  font-size: 15px;
+}
+
+.wd-grid-heading-for-you {
+  width: 15.62%;
+  float: left;
+  color: rgb(29,161,242);
+}
+
+.wd-padding-top-bottom-right{
+  padding-top: 10px;
+  padding-bottom: 16px;
+  padding-right: 16px;
+}
+.wd-grid-heading {
+  width: 15.62%;
+  float: left;
+  color: rgb(110,118,125);
+}
+
+.wd-heading-below {
+  width: 3%;
+  height: 3px;
+  float: left;
+  margin-top: 8px;
+  background-color: rgb(29,161,242);
+}
+
+.wd-heading-block {
+  width: 100%;
+  height: 10px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  margin-left: -16px;
+  float: left;
+  border-color: rgb(47, 51, 54);
+}
+
+.wd-topic{
+  font-size: 15px;
+  color: rgb(110,118,125);
+}
+
+.wd-title{
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+}
+
+.wd-font-color-grey{
+  color: rgb(110,118,125);
+}
+
+.wd-content-text{
+  clear: both;
+}
+
+.wd-content-margin-left{
+  margin-left: 16px;
+}
+
+.wd-text{
+  color: white;
+  font-weight: bold;
+}
+
+.wd-right-font-border{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+.wd-right-font-show-more{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.wd-right-width{
+  height: 40px;
+}
+
+
+
+
+.wd-trending-science{
+  padding-top: 5px;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: rgb(47, 51, 54);
+  margin-left: -16px;
+  height: 90px;
+}
+
+.wd-trending{
+  padding-top: 5px;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: rgb(47, 51, 54);
+  margin-left: -16px;
+  height: 70px;
+}
+
+.wd-trending-content{
+  padding-top: 5px;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: rgb(47, 51, 54);
+  margin-left: -16px;
+  height: 110px;
+}
+
+.wd-content-white{
+  font-size: 13px;
+  color: white;
+  margin-left: 16px;
+}
+
+.wd-float-done{
+  clear: both;
+}
+
+.wd-float-left{
+  float: left;
+}
+.wd-float-image{
+  padding-top:3px;
+  float: right;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  margin-right: 16px;
+  border-radius: 20px;
+}
+
+
+.wd-search-icon{
+  position: absolute;
+  left: 16px;
+  top:13px;
+  color: white;
+}
+
+.list-group-item{
+  background-color: black;
+  color: white;
+
+}
+
+.nav-tabs{
+  border-bottom-style: hidden;
+}
+
+.nav-link {
+  color: rgb(110,118,125);
+}
+
+.nav-link-highlight{
+  color: white;
+  font-weight: bold;
+
+}
+
+.wd-border-bottom-line{
+  border-bottom-style: solid;
+  border-bottom-color: #0d6efd;
+}
+
+.wd-content-border{
+  border-width: 1px;
+  border-color: rgb(110,118,125);
+  border-style: solid;
+}
+
+.wd-right-bg-color{
+  background-color: rgb(31,31,31);
+}
+
+.wd-right-border{
+  border-radius: 20px;
+}
+
+.wd-border-bottom{
+  border-bottom-style: solid;
+  border-bottom-color: rgb(110,118,125);
+  border-bottom-width: 1px;
+}
+
+.wd-show-more-link{
+  text-decoration:none;
+}
+
+.wd-text-padding{
+  padding-left: 10px;
+}
+
+.wd-topic-smaller{
+  padding-top: 5px;
+  font-size: 13px;
+  color: rgb(110,118,125);
+}
+
+.wd-right-border-rounded{
+  border-radius: 20px;
+}
+

@@ -1,0 +1,152 @@
+body {
+  display: flex;
+}
+
+.wd-bg-padding-left{
+  width:100%;
+  padding-left:16px;
+}
+
+.wd-padding-top{
+  padding-top:12px;
+}
+
+.wd-bg-black{
+  background-color: black;
+}
+
+.wd-bg-border{
+  border-style: solid;
+  border-color: rgb(47, 51, 54);
+  border-width: 1px;
+}
+
+.wd-font-white{
+  color: white;
+}
+
+.wd-A{
+  font-size: 20px;
+  color:white;
+}
+
+.wd-user{
+  padding-top:2px;
+  color: rgb(110,118,125);
+  font-size: 13px;
+  padding-bottom: 12px;
+}
+
+.wd-bottom-border{
+  border-color: rgb(47, 51, 54);
+  border-style: solid;
+  border-width: 1px;
+  margin-left: -16px;
+}
+
+.wd-avatar{
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+}
+
+.wd-grid-content{
+  clear: both;
+}
+
+.wd-grid-image {
+  margin-top:12px;
+  width: 10%;
+  float: left;
+}
+
+.wd-tuit{
+  float: left;
+  padding-left: 12px;
+  padding-top: 12px;
+
+}
+
+.wd-tuit-author{
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+}
+.wd-tuit-handle{
+  font-size: 13px;
+  color: rgb(110,118,125);
+}
+
+.wd-tuit-text{
+  color:white;
+  font-size: 15px;
+  width:506px;
+  margin-right: 16px;
+  margin-bottom: 12px;
+}
+
+.wd-content-image{
+  width:504px;
+}
+
+.wd-tuit-content-image{
+  width:504px;
+  height:264px;
+
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.wd-tuit-content-title{
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  margin-top: 16px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.wd-tuit-content-text{
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  font-size: 15px;
+  color: rgb(110,118,125);
+}
+
+.wd-border-bottom{
+  border-style: solid;
+  border-color: rgb(47, 51, 54);
+  border-width: 1px;
+  border-radius: 30px;
+}
+
+.wd-grid-icon{
+  margin-top: 12px;
+  margin-left: 3px;
+  margin-bottom: 16px;
+  clear:both;
+}
+.wd-grid-icon-each{
+  float: left;
+  width: 124px;
+  margin-bottom: 16px;
+
+}
+.wd-grid-icon-number{
+  padding-left: 12px;
+  color: rgb(110,118,125);
+  font-size: 13px;
+}
+
+.wd-grid-icon-like{
+  color: #F44F5A;
+  font-size: 13px;
+  padding-left: 12px;
+}
+
+
+
+
+

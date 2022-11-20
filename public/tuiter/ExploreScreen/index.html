@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../../vendors/bootswatch/bootstrap.min.css" rel="stylesheet"/>
+  <link href="index.css" rel="stylesheet"/>
+  <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+          integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+          crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <title>Explore screen</title>
+</head>
+<body>
+
+<div class="container" id="wd-explore"></div>
+<script src="index.js" type="module"></script>
+
+</body>
+
+
+
+<!--<body class="wd-bg-color-black wd-bg-border">
+  <div class="wd-bg-padding">
+    <div>
+      <input id="id-search-input" class="wd-search-input wb-font-color-white wd-search-color wd-rounded-corners-all-around" type="text" placeholder="Search Twitter">
+      <a href="explore-settings.html" class="wd-search-gear"><img src="../images/gear.png" class="wd-search-bar-gear"></a>
+    </div>
+
+    <div class="wd-grid-heading-bar wd-padding-top-bottom-right">
+      <div class="wd-grid-heading-for-you ">For you</div>
+      <div class="wd-grid-heading ">Trending</div>
+      <div class="wd-grid-heading ">COVID-19</div>
+      <div class="wd-grid-heading ">News</div>
+      <div class="wd-grid-heading ">Sports</div>
+      <div class="wd-grid-heading ">Entertainment</div>
+    </div>
+
+    <div class="wd-grid">
+      <div class="wd-grid-heading wd-heading-below wd-rounded-corners-all-around"></div>
+      <div class="wd-heading-block  wd-search-color"></div>
+    </div>
+
+    <div class="wd-trending-science">
+      <div class="wd-trending-topic">Trending in Science</div>
+      <div class="wd-trending-title">Starship</div>
+      <div class="wd-trending-topic">55.5K Tweets</div>
+    </div>
+
+    <div class="wd-trending">
+      <div class="wd-trending-topic">Sports Trending</div>
+      <div class="wd-trending-title">Joe Rogan</div>
+      <div class="wd-trending-topic">5,218 Tweets</div>
+
+    </div>
+
+    <div class="wd-trending-content">
+      <div class="wd-float-left">
+        <div class="wd-content-white">The New York Times ✅ <span class="wd-trending-topic">Yesterday</span></div>
+        <div class="wd-trending-title">Lawmakers Confront a Rise in Threats and Intimidation, and Fear Worse</div>
+      </div>
+      <img class="wd-float-image"      src="https://static01.nyt.com/images/2022/09/30/us/politics/00dc-cong-threats1/merlin_191971656_abce0414-fab6-45d1-b5e4-611e93240550-superJumbo.jpg?quality=75&auto=webp"/>
+      <div class="wd-float-done"></div>
+    </div>
+
+    <div class="wd-trending-content">
+      <div class="wd-float-left">
+        <div class="wd-trending-topic">COVID-19 LIVE </div>
+        <div class="wd-trending-title">How to Live With Covid When You Are Tired of Living With Covid
+          e</div>
+      </div>
+      <img class="wd-float-image"      src="https://static01.nyt.com/images/2022/08/02/well/22WELL-BA5-PRECAUTIONS1/merlin_187041027_1bb10b31-9950-4089-a00e-2e47dc8fc521-superJumbo.jpg?quality=75&auto=webp"/>
+      <div class="wd-float-done"></div>
+    </div>
+
+    <div class="wd-trending-content">
+      <div class="wd-float-left">
+        <div class="wd-trending-topic">The New York Times Style Magazine✅ </div>
+        <div class="wd-trending-title"> The Optimistic Art of Mary Mattingly</div>
+      </div>
+      <img class="wd-float-image"      src="https://static01.nyt.com/images/2022/09/30/t-magazine/30tmag-marymattingly-slide-9LIE/30tmag-marymattingly-slide-9LIE-superJumbo.jpg?quality=75&auto=webp"/>
+      <div class="wd-float-done"></div>
+    </div>
+
+
+
+
+
+  </div>
+
+
+</body>-->
+
+
+<!--<body class="wd-bg-color-black">
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-xl-2 col-lg-1 col-m-2 col-2 pe-3">
+      <ul class="list-group wd-margin-top">
+
+
+        <a class="list-group-item " href="#"><i class="fab fa-twitter"></i></a>
+        <a class="list-group-item" href="#"><i class="fa fa-home"></i><span class="wd-font-size d-none d-xl-inline wd-text-padding">Home</span></a>
+        <a class="list-group-item active" href="#"><i class="fa fa-hashtag"></i><span class="wd-font-size d-none d-xl-inline wd-text-padding">Explore</span></a>
+        <a class="list-group-item" href="#"><i class="fa fa-bell"></i><span class="wd-font-size d-none d-xl-inline wd-text-padding">Notifications</span></a>
+        <a class="list-group-item" href="#"><i class="fa fa-envelope"></i><span class="wd-font-size d-none d-xl-inline wd-text-padding">Message</span></a>
+        <a class="list-group-item" href="#"><i class="fa fa-bookmark"></i><span class="wd-font-size d-none d-xl-inline wd-text-padding">Bookmarks</span></a>
+        <a class="list-group-item" href="#"><i class="fa fa-list"></i><span class="wd-font-size d-none d-xl-inline wd-text-padding">Lists</span></a>
+        <a class="list-group-item" href="#"><i class="fa fa-user"></i><span class="wd-font-size d-none d-xl-inline wd-text-padding">Profile</span></a>
+        <a class="list-group-item" href="#"><i class="fa fa-caret-down"></i><span class="wd-font-size d-none d-xl-inline wd-text-padding">More</span></a>
+
+        <button  class="wd-margin-top wd-button-tweet-left">Tweet</button>
+      </ul>
+    </div>
+
+    <div class="col-xl-7 col-lg-7  col-m-10 col-10 wd-content-border ps-0 pe-0">
+      <div class="wd-margin-top position-relative">
+        <i class="fa fa-search style='color: white wd-search-icon"></i>
+        <input id="search-input" class="wd-search-input wd-rounded-corners-all-around " type="text" placeholder="Search Twitter">
+        <a href="explore-settings.html" id="search-input-icon"><i class="fa fa-cog fa-2x style='color: wd-cog"></i></a>
+      </div>
+
+      <ul class="nav nav-tabs wd-grid-heading-bar wd-padding-top">
+        <li class="nav-item">
+          <a class="nav-link" href="for-you.html">For you</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="trending.html">Trending</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="news.html">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sports.html" >Sports</a>
+        </li>
+        <li class="navi-item wd-border-bottom-line">
+          <a class="nav-link d-none d-md-block nav-link-highlight" href="#" >Entertainment</a>
+        </li>
+      </ul>
+
+      <div class="position-relative pt-1 ">
+        <div class="wd-image-text position-relative wd-border-bottom">
+          <img src="https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg" class="wd-content-img">
+          <div>
+            <span class="d-block d-sm-none wd-content-text-xs">SpaceX's Starship</span>
+            <span class="d-none d-sm-block d-md-none wd-content-text-sm">SpaceX's Starship</span>
+            <span class="d-none d-md-block d-lg-none wd-content-text-md">SpaceX's Starship</span>
+            <span class="d-none d-lg-block d-xl-none wd-content-text-lg">SpaceX's Starship</span>
+            <span class="d-none d-xl-block d-xxl-none wd-content-text-xl">SpaceX's Starship</span>
+            <span class="d-none d-xxl-block wd-content-text-xxl">SpaceX's Starship</span>
+          </div>
+        </div>
+      </div>
+
+      <ul class="list-group">
+        <li class="list-group-item pe-2 wd-border-bt">
+          <div class="wd-content-text">
+            <div class="wd-float-left pb-2">
+              <div class="wd-topic">Web Development </div>
+              <div class="wd-title">ReactJS <i class="fa-solid fa-circle-check"></i><span class="wd-font-color-grey"> - 2h</span></div>
+              <div class="wd-text">React.js is a componet based front end library that makes it very easy to build Single Page Appplications or SPAs.</div>
+            </div>
+            <div>
+              <img class="wd-float-right-image pt-2"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png"/>
+            </div>
+            <div class="wb-float-done"></div>
+          </div>
+        </li>
+
+        <li class="list-group-item pe-2 wd-border-bt">
+          <div class="wd-content-text">
+            <div class="wd-float-left pb-2">
+              <div class="wd-title">JavaScript <i class="fa-solid fa-circle-check"></i><span class="wd-font-color-grey"> - 2h</span></div>
+              <div class="wd-text">JavaScript is programming language that can run on browsers as well as desktops</div>
+              <div class="wd-topic">123K Tweets </div>
+            </div>
+            <div>
+              <img class="wd-float-right-image pt-1"  src="https://www.feroot.com/wp-content/uploads/1200px-Unofficial_JavaScript_logo_2.svg.png"/>
+            </div>
+            <div class="wd-float-done"></div>
+          </div>
+        </li>
+
+        <li class="list-group-item pe-2 wd-border-bt">
+          <div class="wd-content-text">
+            <div class="wd-float-left pb-2">
+              <div class="wd-topic">Web Development </div>
+              <div class="wd-title">JQuery <i class="fa-solid fa-circle-check"></i><span class="wd-font-color-grey"> - 2h</span></div>
+              <div class="wd-topic">123K Tweets </div>
+            </div>
+            <div>
+              <img class="wd-float-right-image pb-2"  src="../images/jquery-logo.png"/>
+            </div>
+            <div class="wb-float-done"></div>
+          </div>
+        </li>
+
+        <li class="list-group-item pe-2">
+          <div class="wd-content-text">
+            <div class="wd-float-left">
+              <div class="wd-topic">Web Development </div>
+              <div class="wd-title">NodeJS <i class="fa-solid fa-circle-check"></i><span class="wd-font-color-grey"> - 2h</span></div>
+              <div class="wd-topic">123K Tweets </div>
+            </div>
+            <div>
+              <img class="wd-float-right-image"  src="https://pluralsight2.imgix.net/paths/images/nodejs-45adbe594d.png"/>
+            </div>
+            <div class="wb-float-done"></div>
+          </div>
+        </li>
+      </ul>
+
+    </div>
+
+
+    <div class="col-xl-3 col-lg-4 d-md-none d-lg-block ps-3">
+      <ul class="list-group wd-margin-top wd-right-border">
+        <li class="list-group-item wd-right-font-border wd-right-width wd-right-bg-color">Who to follow</li>
+        <li class="list-group-item ps-0 wd-right-bg-color">
+          <div class="wd-right-float-left">
+            <img class="wd-right-logo"  src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1024px-Java_programming_language_logo.svg.png"/>
+          </div>
+          <div class="wd-right-float-left ">
+            <div class="wd-right-title ">Java <i class="fa-solid fa-circle-check"></i></div>
+            <div class="wd-right-author ">@Java </div>
+          </div>
+          <div class="wd-right-float-right">
+            <button  class="wd-button-tweet wd-right-button">Follow</button>
+          </div>
+        </li>
+
+        <li class="list-group-item ps-1 wd-right-bg-color">
+          <div class="wd-right-float-left">
+            <img class="wd-right-logo"  src="https://yt3.ggpht.com/ytc/AKedOLQf6ky9m_48B2ElJExS53ydwnVl5XBwPfdYeOe1=s900-c-k-c0x00ffffff-no-rj"/>
+          </div>
+          <div class="wd-right-float-left ">
+            <div class="wd-right-title ps-1">Relativity Space <i class="fa-solid fa-circle-check"></i></div>
+            <div class="wd-right-author ps-1">@relativityspace </div>
+          </div>
+          <div class="wd-right-float-right">
+            <button  class="wd-button-tweet wd-right-button">Follow</button>
+          </div>
+        </li>
+
+
+        <li class="list-group-item ps-0 wd-right-bg-color">
+          <div class="wd-right-float-left">
+            <img class="wd-right-logo"  src="https://upload.wikimedia.org/wikipedia/zh/thumb/9/9e/Virgin.svg/2157px-Virgin.svg.png"/>
+          </div>
+          <div class="wd-right-float-left">
+            <div class="wd-right-title ">Virgin Galactic <i class="fa-solid fa-circle-check"></i></div>
+            <div class="wd-right-author">@virgingalactic </div>
+          </div>
+          <div class="wd-right-float-right">
+            <button  class="wd-button-tweet wd-right-button">Follow</button>
+          </div>
+        </li>
+        <li class="list-group-item ps-0 wd-right-bg-color">
+          <div class="wd-right-float-left">
+            <img class="wd-right-logo"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/1920px-NASA_logo.svg.png"/>
+          </div>
+          <div class="wd-right-float-left">
+            <div class="wd-right-title ">NASA <i class="fa-solid fa-circle-check"></i></div>
+            <div class="wd-right-author">@NASA </div>
+          </div>
+          <div class="wd-right-float-right">
+            <button  class="wd-button-tweet wd-right-button">Follow</button>
+          </div>
+        </li>
+        <li class="list-group-item ps-0 wd-right-bg-color">
+          <div class="wd-right-float-left">
+            <img class="wd-right-logo"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tesla_Motors.svg/1280px-Tesla_Motors.svg.png"/>
+          </div>
+          <div class="wd-right-float-left">
+            <div class="wd-right-title ">Tesla <i class="fa-solid fa-circle-check"></i></div>
+            <div class="wd-right-author">@Tesla </div>
+          </div>
+          <div class="wd-right-float-right">
+            <button  class="wd-button-tweet wd-right-button">Follow</button>
+          </div>
+        </li>
+
+        <li class="list-group-item wd-right-font-show-more wd-right-width wd-right-bg-color">
+          <a href="#" class="wd-show-more-link" >Show more</a>
+        </li>
+
+
+
+
+      </ul>
+      <div class="wd-content-text wd-topic-smaller"> Terms of Service  Privacy Policy  Cookie Policy
+      </div>
+      <div class="wd-content-text wd-topic-smaller"> Ads info  More...   @2021 Twitter.Inc.
+      </div>
+
+
+
+
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+</body>-->
+
+</html>
