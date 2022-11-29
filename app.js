@@ -13,9 +13,15 @@ import {fileURLToPath} from 'url';
 const __filename = fileURLToPath(import.meta.url);
 import mongoose from "mongoose";
 
-const CONNECTION_STRING = process.env.DB_CONNECTION_STRING
- || 'mongodb://localhost:27017/tuiter';
-mongoose.connect(CONNECTION_STRING);
+const CONNECTION_STRING = process.env.DB_CONNECTION_STRING;
+ //|| 'mongodb://localhost:27017/tuiter';
+ console.log(CONNECTION_STRING)
+ try {
+   await mongoose.connect("mongodb+srv://May:mayqiqi@cluster0.mfarirj.mongodb.net/tuiter?retryWrites=true&w=majority/");
+ } catch (error) {
+   handleError(error);
+ }
+//mongoose.connect("mongodb+srv://May:mayqiqi@cluster0.mfarirj.mongodb.net/?retryWrites=true&w=majority");
 
 
 const __dirname = path.dirname(__filename);
