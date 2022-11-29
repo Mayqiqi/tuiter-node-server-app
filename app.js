@@ -29,5 +29,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 TuitsController(app);
 HelloController(app)
 UserController(app)
-app.listen(process.env.PORT || 4000);
+const host = '0.0.0.0'
+app.listen(process.env.PORT || 4000, host);
 // test
